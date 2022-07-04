@@ -1,0 +1,74 @@
+nav {
+    color: blue;
+    position: fixed;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 100%
+}
+
+nav li {
+
+}
+
+body {
+    background-image: url(./images/topography.jpg);
+    background-size: cover;
+    text-align: center;
+}
+
+header {
+    width: 100%;
+    text-align: center;
+}
+
+h1 {
+    font-size: 100px;
+}
+
+#banner {
+
+}
+
+#blurb {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+#banner p{
+    color: wheat;
+}
+
+.grid_menu {
+    display: grid;
+    width: 80%%;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 100px;
+    margin: 0 100px;
+}
+
+.menu_item {
+    background-color: white;
+    border-radius: 30px;
+    border: 2px black solid;
+}
+
+.taco {
+    background-image: url(./images/taco.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.burrito {
+    background-image: url(./images/burrito.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.beer {
+    background-image: url(./images/beer.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
